@@ -21,13 +21,13 @@ if not gameid[game.PlaceId] then
 else
     -- Tower Of Hell
     if game.PlaceId == 1962086868 or game.PlaceId == 5253186791 or game.PlaceId == 1962086868 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Tower-of-Hell/main/.lua?token=GHSAT0AAAAAACRSSV4ZYCQY7CG77EX2VBMMZRONB5Q"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Tower-of-Hell/main/.lua"))()
     -- Break In 2
     elseif game.PlaceId == 13864661000 or game.PlaceId == 13864667823 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Break-in-2/main/.lua?token=GHSAT0AAAAAACRSSV4YN3O4SRZFFSGRVFWWZRONCMA"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Break-in-2/main/.lua"))()
     -- Ninja Legends
     elseif game.PlaceId == 3956818381 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Ninja-Legends-KH/main/.lua?token=GHSAT0AAAAAACRSSV4ZCHVM7U3HP25LHVTGZRONANQ"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Ninja-Legends-KH/main/.lua"))()
     end
 end
 -- Soon

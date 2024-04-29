@@ -29,7 +29,7 @@ else
     -- Ninja Legends
     elseif game.PlaceId == 3956818381 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Ninja-Legends-KH/main/.lua"))()
-    -- Ninja Legends
+    -- Speed Legends
     elseif game.PlaceId == 3101667897 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/lg/main/.lua"))()
     end

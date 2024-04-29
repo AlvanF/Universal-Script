@@ -5,6 +5,7 @@ local gameid = {
     [13864661000] = true, -- Break in 2 (lobby)
     [13864667823] = true, -- break in 2 game
     [3956818381] = true -- Ninja Legends
+    [3101667897] = true -- Speed Legends
 }
 
 function notif(title, txt, dur)
@@ -28,6 +29,9 @@ else
     -- Ninja Legends
     elseif game.PlaceId == 3956818381 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/Ninja-Legends-KH/main/.lua"))()
+    -- Ninja Legends
+    elseif game.PlaceId == 3101667897 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AlvanF/lg/main/.lua"))()
     end
 end
 -- Soon
